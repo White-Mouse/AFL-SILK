@@ -1,7 +1,7 @@
 # AFL-SILK
 ![](https://img.shields.io/hexpm/l/plug?style=flat-square)
 
-  AFL-SILK is a component of SILK (A Hybrid Fuzzer) which is implemented based on AFL 2.57b. The main idea is that give seeds whose unexplored paths have lower exploration difficulty more energy.
+  AFL-SILK is a component of SILK (A Hybrid Fuzzer) which is implemented based on AFL 2.57b. The main idea is that give easy paths more power.
   
   ## Environment
   - Tested on Ubuntu 16.04 64bit
@@ -35,4 +35,6 @@
     # Prepare the initial seeds and start fuzzing
     $ afl-fuzz -i in/ -o out ./tcpdump -e -vv -nr @@
     
-    
+
+  ## LAVA-M
+  AFL-SILK has better performance on LAVA-M than on AFL. 
