@@ -37,7 +37,7 @@
     
 
   ## LAVA-M
-  AFL-SILK has better performance on LAVA-M than on AFL. The following is an example of fuzzing base64.
+  AFL-SILK has a better performance on LAVA-M than on AFL. The following is an example of fuzzing base64.
     
     $ cd /path-to-lava_corpus/LAVA-M/base64/coreutils-8.24-lava-safe
     $ sudo CC=/usr/local/go/bin/gclang CXX=/usr/local/go/bin/gclang++ ./configure FORCE_UNSAFE_CONFIGURE=1 --prefix=`pwd`/lava-install LIBS="-lacl"
