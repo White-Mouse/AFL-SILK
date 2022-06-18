@@ -1,7 +1,7 @@
 # AFL-SILK
 ![](https://img.shields.io/hexpm/l/plug?style=flat-square)
 
-  AFL-SILK is a component of SILK (A Hybrid Fuzzer) which is implemented based on AFL 2.57b. The main idea is that give easy paths more power.
+  AFL-SILK is a component of SILK (A Hybrid Fuzzer) which is implemented based on AFL 2.57b. The main idea is that explore the paths in descending order of difficulty.
   
   ## Environment
   - Tested on Ubuntu 16.04 64bit
