@@ -48,6 +48,6 @@
     $ mv base64.bc /path-to-lava_corpus/LAVA-M/base64
     $ /path-to-AFL-SILK/afl-clang-fast -i base64.bc base64_silk
     $ /path-to-AFL/afl-clang-fast -i base64.bc base64
-    $ /path-to-AFL-SILK/afl-fuzz -i fuzzer_input -o out -M m ./base64_silk -d @@
-    $ /path-to-AFL/afl-fuzz -i fuzzer_input -o out -S s ./base64 -d @@
+    $ /path-to-AFL-SILK/afl-fuzz -i fuzzer_input -o out -S s ./base64_silk -d @@
+    $ /path-to-AFL/afl-fuzz -i fuzzer_input -o out -M m ./base64 -d @@
     
